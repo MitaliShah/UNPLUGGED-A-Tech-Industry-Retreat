@@ -157,11 +157,6 @@ footer {
   flex-flow: row wrap;
 }
 
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
-}
-
 header {
   padding: 15px 0;
 }
