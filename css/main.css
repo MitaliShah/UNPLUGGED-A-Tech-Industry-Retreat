@@ -575,13 +575,24 @@ input[type="button"] {
   }
 
   /* Reviews */
+
+  .reviews h2 {
+    width: 85%;
+  }
+
   .reviews article {
     display: flex;
     justify-content: space-between;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
 
   /* Footer */
@@ -614,6 +625,10 @@ input[type="button"] {
   }
   .mission-content p {
     width: 45%;
+  }
+
+  .map figure {
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -671,6 +686,10 @@ input[type="button"] {
   }
 
   /* Reviews */
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
   .reviews article div {
     width: 42%;
   }
@@ -683,6 +702,10 @@ input[type="button"] {
 
   .contact-section .content-wrapper h2 {
     margin-bottom: 50px;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   /*FAQ Page*/
