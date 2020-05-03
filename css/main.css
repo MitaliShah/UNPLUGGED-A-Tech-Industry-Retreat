@@ -194,6 +194,10 @@ header nav ul {
   width: 100%;
 }
 
+header ul li {
+  cursor: pointer;
+}
+
 footer {
   text-align: center;
   flex-direction: column;
@@ -228,11 +232,31 @@ footer .copyright {
   margin: 20px 0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 /* -------------------- Mobile Styles - Homepage -------------------- */
 /* Hero Area */
 .hero-area {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
+  background: url("../img/jake-melara-30679-unsplash.png") center no-repeat #333;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -258,6 +282,9 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/rawpixel-800820-unsplash1.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -501,7 +528,9 @@ input[type="button"] {
   }
 
   /* Hero Area */
-
+  header figure {
+    width: 30%;
+  }
   /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
