@@ -228,6 +228,11 @@ footer .social-icons p {
   align-items: center;
 }
 
+.social-icons a {
+  font-size: 2em;
+  margin-left: 10px;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
